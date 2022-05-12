@@ -7,13 +7,12 @@ public class Animal {
  this.name = name;
  this.dogornot = dogornot;
  }
-//  public Animal(String name){
-// this.name = name;
-  
-//     }
-// public Animal(Boolean dogornot){
-// this.dogornot = dogornot;
-//         }
+public Animal(String name){
+this.name = name;
+  }
+public Animal(Boolean dogornot){
+this.dogornot = dogornot;
+        }
 
  public String getName() {
     return name;

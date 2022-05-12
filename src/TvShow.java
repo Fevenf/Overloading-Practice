@@ -8,7 +8,15 @@ public class TvShow {
         this.numOfEpisodes = numOfEpisodes;
         this.genre = genre;
     }
+    public TvShow(String showName) {
+        this.showName = showName;
+       
+    }
 
+    public TvShow(int numOfEpisodes, String genre) {
+        this.numOfEpisodes = numOfEpisodes;
+        this.genre = genre;
+    }
     public String getshowName() {
         return showName;
     }
