@@ -5,7 +5,13 @@ public class Animalmain {
 
     public static void main(String[] args) throws Exception {
         ArrayList<Animal> animals = new ArrayList<>();
+        animals.add(new Animal());
+        animals.add(new Animal("bob"));
+        animals.add(new Animal(true));
+        animals.add(new Animal("bob2", false));
+        
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Animal Menu");
         System.out.println("Entering nothing will stop the loop ");
     

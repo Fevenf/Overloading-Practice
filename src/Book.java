@@ -8,19 +8,18 @@ public class Book {
         this.pages = pages;
         this.year = year;
     }
-
+    public Book () {
+        
+    }
     public Book (String title, int pages) {
         this.title = title;
         this.pages = pages;
         
     }
-
     public Book (String title) {
         this.title = title;
-        
-     
     }
-
+    
     public String getTitle() {
         return title;
     }

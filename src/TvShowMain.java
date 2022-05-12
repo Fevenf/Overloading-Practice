@@ -5,6 +5,11 @@ public class TvShowMain {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         ArrayList <TvShow> tvShows = new ArrayList <TvShow> ();
+        tvShows.add(new TvShow("Harry Poter"));
+        tvShows.add(new TvShow());
+        tvShows.add(new TvShow(10, "Vampire"));
+        tvShows.add(new TvShow("Vampire",10, "Drama"));
+
         while (true) {
             System.out.println("Entering nothing will stop the loop: ");
             System.out.println("Name of the show: ");

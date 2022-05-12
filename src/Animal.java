@@ -7,6 +7,9 @@ public class Animal {
  this.name = name;
  this.dogornot = dogornot;
  }
+ public Animal() {
+     
+ }
 public Animal(String name){
 this.name = name;
   }

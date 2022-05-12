@@ -9,6 +9,9 @@ public class BookMain {
         books.add(new Book("A Witch in the Grden ", 272, 2021));
         books.add(new Book("Becoming ", 464, 2021));
         books.add(new Book("Gursha", 53, 2021));
+        books.add(new Book("Diary"));
+        books.add(new Book("Psychology1", 49));
+        books.add(new Book());
 
         System.out.println(" add more books please ? In addition to the list;");
 
